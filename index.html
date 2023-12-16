@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <header>
-        <h1 class="welcome">Welcome to KG Weather</h1>
+        <h1 class="welcome" id="welcome">Welcome to KG Weather</h1>
         <form class="search-form">
           <input
             type="search"
@@ -28,16 +28,18 @@
       </header>
 
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Tuesday 14:49, Scattered Clouds
-            <br />
-            Humidity: 66% , Wind: 3.13km/h
-          </p>
-        </div>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-city" id="city">Paris</h1>
+            <p class="weather-details">
+              Tuesday 14:49, Scattered Clouds
+              <br />
+              Humidity: 66% , Wind: 3.13km/h
+            </p>
+          </div>
 
-        <div>🌤️ 12°F</div>
+          <div class="weather-temperature">🌤️ 12°F</div>
+        </div>
       </main>
 
       <footer>
