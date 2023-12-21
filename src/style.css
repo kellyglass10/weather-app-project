@@ -95,23 +95,34 @@ main {
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  color: #000;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
 .forecast-date {
+  text-align: center;
+  color: rgba(38, 33, 66, 0.4);
   font-size: 16px;
-  opacity: 0.5;
-  margin-left: 12px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
-.forecast-temperature-min {
-  font-size: 16px;
-  opacity: 0.5;
+.forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.forecast-temperatures {
+  text-align: center;
+  color: #1e549f;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .forecast-temperature {
-  font-size: 13px;
+  padding: 0 10px;
 }
 
 footer {
